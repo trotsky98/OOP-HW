@@ -22,6 +22,6 @@ public class GroupStream implements Iterable<StudentGroup> {
 
     @Override
     public Iterator<StudentGroup> iterator() {
-        return new GroundStreamIterator(this);
+        return new GroupStreamIterator(this);
     }
 }
