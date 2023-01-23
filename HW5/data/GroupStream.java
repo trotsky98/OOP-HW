@@ -1,6 +1,6 @@
 package data;
 
-import data.iterator.GroundStreamIterator;
+import data.iterator.GroupStreamIterator;
 
 import java.util.List;
 import java.util.Iterator;
