@@ -1,5 +1,5 @@
 package service;
-//Обобщить интерфейс DataService, чтобы он работал только с наследниками класса User
+
 
 import data.StudentGroup;
 import data.User;
