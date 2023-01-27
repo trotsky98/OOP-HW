@@ -1,5 +1,5 @@
 package data;
-//Создать класс StudentGroup, содержащая в себе поля Teacher и список студентов.
+
 
 import data.iterator.StudentGroupIterator;
 
