@@ -13,8 +13,8 @@ private final LoggingCommandExecutableFactoryImplView loggingCommandExecutableFa
     public CommandExecutable create(Command input)
     {
         loggingCommandExecutableFactoryImplView.printStarted(input);
-        CommandExecutable commandExecutable=super.create(input);//метод предка
+        CommandExecutable commandExecutable=super.create(input);
         loggingCommandExecutableFactoryImplView.printFinished();
         return commandExecutable;
-    }//переопределенный метод
+    }
 }
