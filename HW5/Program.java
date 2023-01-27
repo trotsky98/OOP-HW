@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Program{
     public static void main(String[] args) {
-        
+       
         TerminalReader.getInstance(new CommandParser() {
             @Override
             public Command parseCommand(String inputCommand) {

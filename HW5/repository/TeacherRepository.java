@@ -1,5 +1,4 @@
 package repository;
-//Реализовать класc TeacherRepository (обобщение на ваше усмотрение)
 
 import data.Teacher;
 
